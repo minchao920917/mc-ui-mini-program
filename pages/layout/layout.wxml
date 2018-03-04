@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="text-sm text-indent text-muted">
+  在pc端有很多种,小程序的好处之一是不用考虑跨平台的兼容性,不用考虑兼容IE8(连亲生父亲微软都抛弃的浏览器)等过时的浏览器。
+  </view>
+  <text class="br"></text>
+  <view class="mc-title">Flex弹性布局<text class="text-success">(首推)</text>
+  </view>
+  <view class="mc-title">盒模型布局<text class="text-success">(次推)</text>
+  </view>
+</view>

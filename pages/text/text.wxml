@@ -1,0 +1,27 @@
+<!--pages/text/text.wxml-->
+<view class="mc-grid mc-form text-sm">
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">姓    名:</view>
+    </view>
+    <view class="mc-col-5">
+      <input class="padding-xs" type="text" placeholder="请输入姓名" />
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">密 码:</view>
+    </view>
+    <view class="mc-col-5">
+      <input class="padding-xs" type="text" placeholder="请输入密码" />
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">搜 索:</view>
+    </view>
+    <view class="mc-col-5">
+       <input class="padding-xs-tb icon-r icon-search" type="text" placeholder=""  /> 
+    </view>
+  </view>
+</view>

@@ -1,0 +1,79 @@
+<!--pages/text/text.wxml-->
+<view class="mc-grid mc-form text-sm">
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">搜 索:</view>
+    </view>
+    <view class="mc-col-5">
+       <input class="padding-xs-tb icon-r icon-search" type="text" placeholder=""  /> 
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">选 择:</view>
+    </view>
+    <view class="mc-col-5">
+       <input class="padding-xs-tb icon-r icon-select" type="text" placeholder=""  /> 
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">人 员:</view>
+    </view>
+    <view class="mc-col-5">
+       <input class="padding-xs-tb icon-r icon-person" type="text" placeholder=""  /> 
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">时 间:</view>
+    </view>
+    <view class="mc-col-5">
+       <input class="padding-xs-tb icon-r icon-date" type="text" placeholder=""  /> 
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">菜 单:</view>
+    </view>
+    <view class="mc-col-5">
+       <input class="padding-xs-tb icon-r icon-dept" type="text" placeholder=""  /> 
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">扫 描:</view>
+    </view>
+    <view class="mc-col-5">
+       <input class="padding-xs-tb icon-r icon-sweep" type="text" placeholder=""  /> 
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">语 音:</view>
+    </view>
+    <view class="mc-col-5">
+       <input class="padding-xs-tb icon-r icon-microphone" type="text" placeholder=""  /> 
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">地 图:</view>
+    </view>
+    <view class="mc-col-5">
+       <input class="padding-xs-tb icon-r icon-location" type="text" placeholder=""  /> 
+    </view>
+  </view>
+  <view class="mc-row mc-border">
+    <view class="mc-col-1">
+      <view class="text-left padding-sm">星 级:</view>
+    </view>
+    <view class="mc-col-5 icon-star icon-star-{{index}} padding-md-lr">
+        <view id="" data-index="1" bindtap="star"></view>
+        <view id="" data-index="2" bindtap="star"></view>
+        <view id="" data-index="3" bindtap="star"></view>
+        <view id="" data-index="4" bindtap="star"></view>
+        <view id="" data-index="5" bindtap="star"></view>        
+    </view>
+  </view>
+</view>
