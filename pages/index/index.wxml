@@ -1,24 +1,30 @@
 <!--index.wxml-->
 <view class="container">
-<view class="text-success text-center">欢迎使用 mc-ui</view>
-<view class="bg-title padding-sm-lr padding-xs-tb">使用方法</view>
+<view class="h3 text-success text-center">欢迎使用 mc-ui</view>
+<view class="h4 bg-title pg-xs-lr mg-sm-tb">使用方法</view>
   <view class="text-xs text-indent">在app.wxss中引入mc-ui样式文件即可 </view>
   <view class="text-xs text-indent">/** app.wxss **/</view>
   <view class="text-xs text-indent">@import 'mc-ui.wxss';</view>
 
-<view class="bg-title padding-sm-lr padding-xs-tb">CSS使用</view>
-  <view class="items">
-   <navigator url="../basic/basic" class="">基础样式 </navigator>
+<view class="h4 bg-title pg-xs-lr mg-sm-tb">CSS使用</view>
+  <view class="items pg-md mg-xs-tb">
+   <navigator url="../basic/basic" class="">基础样式 
+   <icon class="icon-box icon-font icon-zuojiantou pull-right" ></icon>
+   </navigator>
   </view>
-  <view class="items">
-   <navigator url="../layout/layout" class="">布局与容器 </navigator>
+  <view class="items pg-md mg-xs-tb">
+   <navigator url="../layout/layout" class="">布局与容器 
+   <icon class="icon-box icon-font icon-zuojiantou pull-right" ></icon>
+   </navigator>
   </view>
-  <view class="items">
-    <navigator url="../icon/icon" class="">图标 </navigator>
+  <view class="items pg-md mg-xs-tb">
+    <navigator url="../icon/icon" class="">图标 
+    <icon class="icon-box icon-font icon-zuojiantou pull-right" ></icon>
+    </navigator>
   </view>
-  <view class="items" bindtap="">图片</view>
-  <view class="items" bindtap="">表格</view>
-  <view class="items" bindtap="">表单(单选框、复选框、开关)</view>
-  <view class="items" bindtap="">提示信息</view>
-  <view class="items" bindtap="">按钮</view>
+  <view class="items pg-md mg-xs-tb" bindtap="">图片</view>
+  <view class="items pg-md mg-xs-tb" bindtap="">表格</view>
+  <view class="items pg-md mg-xs-tb" bindtap="">表单(单选框、复选框、开关)</view>
+  <view class="items pg-md mg-xs-tb" bindtap="">提示信息</view>
+  <view class="items pg-md mg-xs-tb" bindtap="">按钮</view>
 </view>

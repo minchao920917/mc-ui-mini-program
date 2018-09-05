@@ -1,10 +1,10 @@
 {
   "pages": [
  
-  
+  "pages/basic/basic",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/basic/basic",
+    
     "pages/icon/icon",
     "pages/text/text",
     "pages/layout/layout"
@@ -12,8 +12,8 @@
   ],
   "window": {
     "backgroundTextStyle": "#fff",
-    "navigationBarBackgroundColor": "#FFAF4B",
+    "navigationBarBackgroundColor": "#0e90d2",
     "navigationBarTitleText": "MC-UI",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "#fff"
   }
 }

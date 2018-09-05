@@ -102,6 +102,11 @@ text-transform: capitalize;
 .bg-danger {
   background-color: #f2dede;
 }
+
+.bg-theme{
+  background-color: #0e90d2;
+  color:#fff;
+}
 /* 浮动  */
 
 .pull-left {
@@ -153,78 +158,78 @@ text-transform: capitalize;
 .text-indent{    
   text-indent:2em;
 } 
-/* padding和margin间距  */
-.padding-xs{
+/* pg和mg间距  */
+.pg-xs{
   padding: 12rpx;
 }
-.padding-xs-lr{
+.pg-xs-lr{
   padding: 0 12rpx;
 }
-.padding-xs-tb{
+.pg-xs-tb{
   padding: 12rpx 0;
 }
-.padding-sm{
+.pg-sm{
   padding: 20rpx;
 }
-.padding-sm-lr{
+.pg-sm-lr{
   padding: 0 20rpx;
 }
-.padding-sm-tb{
+.pg-sm-tb{
   padding: 20rpx 0;
 }
-.padding-md{
+.pg-md{
   padding: 30rpx;
 }
-.padding-md-lr{
+.pg-md-lr{
   padding: 0 30rpx;
 }
-.padding-md-tb{
+.pg-md-tb{
   padding: 30rpx 0;
 }
-.padding-lg{
+.pg-lg{
   padding: 40rpx;
 }
-.padding-lg-lr{
+.pg-lg-lr{
   padding: 0 40rpx;
 }
-.padding-lg-tb{
+.pg-lg-tb{
   padding: 40rpx 0;
 }
 /* margining  */
-.margin-xs{
+.mg-xs{
   margin: 12rpx;
 }
-.margin-xs-lr{
+.mg-xs-lr{
   margin: 0 12rpx;
 }
-.margin-xs-tb{
+.mg-xs-tb{
   margin: 12rpx 0;
 }
-.margin-sm{
+.mg-sm{
   margin: 20rpx;
 }
-.margin-sm-lr{
+.mg-sm-lr{
   margin: 0 20rpx;
 }
-.margin-sm-tb{
+.mg-sm-tb{
   margin: 20rpx 0;
 }
-.margin-md{
+.mg-md{
   margin: 30rpx;
 }
-.margin-md-lr{
+.mg-md-lr{
   margin: 0 30rpx;
 }
-.margin-md-tb{
+.mg-md-tb{
   margin: 30rpx 0;
 }
-.margin-lg{
+.mg-lg{
   margin: 40rpx;
 }
-.margin-lg-lr{
+.mg-lg-lr{
   margin: 0 40rpx;
 }
-.margin-lg-tb{
+.mg-lg-tb{
   margin: 40rpx 0;
 }
 /* border  */
@@ -243,16 +248,35 @@ text-transform: capitalize;
 .mc-border-left{
   border-left:solid 1px #DDD; 
 }
+/* box-shadow */
+.box-shadow{
+-webkit-box-shadow: 0px 0px 14px -1px rgba(61,52,61,1);
+-moz-box-shadow: 0px 0px 14px -1px rgba(61,52,61,1);
+box-shadow: 0px 0px 14px -1px rgba(61,52,61,1);
+}
 
 /* 图标定义  */
 /***********************************************
     *Icon定义
 ***********************************************/
+.icon-box{
+  width:24px;
+  height:24px;
+}
+.icon-font{
+  background-repeat:no-repeat;
+  -webkit-background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+}
 .icon-select
 {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+CjxwYXRoIGZpbGw9IiMwMDlCRTEiIGQ9Ik0yOSw4aDNMMTcuOTU0LDI0aC0xLjk3M0wwLDhsMi45NTcsMC4wMDZsMTQuMDQ0LDE0TDI5LDh6Ii8+Cjwvc3ZnPg==);
 }
-
+.icon-zuojiantou
+{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB0PSIxNTM2MTM4MzI2MTgzIiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjEwMzQiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTY4OS42MjEgNTEybC0zMjguODMyLTMyOC44MzItNjAuMzMxIDYwLjMzMSAyNjguNTAxIDI2OC41MDEtMjY4LjUwMSAyNjguNTAxIDYwLjMzMSA2MC4zMzF6IiBwLWlkPSIxMDM1IiBmaWxsPSIjY2RjZGNkIj48L3BhdGg+PC9zdmc+);
+}
 .icon-person
 {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwIiB5PSIwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiPg0KPGc+DQoJPGNpcmNsZSBjeD0iMjAiIGN5PSIxMi41IiByPSIxMS41IiBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZT0iIzAwOUJFMSIgLz4NCgk8cGF0aCBkPSJNNCA0MCBBMTIgMTIgMCAwIDEgMzYgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlPSIjMDA5QkUxIiAvPg0KCTxsaW5lIHgxPSI0IiB5MT0iMzkiIHgyPSIzNiIgeTI9IjM5IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZT0iIzAwOUJFMSIgLz4NCjwvZz4NCjwvc3ZnPg==);
