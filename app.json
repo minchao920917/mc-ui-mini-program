@@ -1,14 +1,14 @@
 {
   "pages": [
- 
-  "pages/basic/basic",
     "pages/index/index",
+    "pages/basic/basic",
     "pages/logs/logs",
-    
+    "pages/layout/layout",
     "pages/icon/icon",
     "pages/text/text",
-    "pages/layout/layout"
-    
+    "pages/table/table",
+    "pages/img/img",
+    "pages/form/form"
   ],
   "window": {
     "backgroundTextStyle": "#fff",

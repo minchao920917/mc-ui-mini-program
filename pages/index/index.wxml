@@ -1,30 +1,36 @@
 <!--index.wxml-->
 <view class="container">
-<view class="h3 text-success text-center">欢迎使用 mc-ui</view>
-<view class="h4 bg-title pg-xs-lr mg-sm-tb">使用方法</view>
+  <view class="h3 text-success text-center">欢迎使用 mc-ui</view>
+  <view class="h4 bg-title pg-xs-lr mg-sm-tb">使用方法</view>
   <view class="text-xs text-indent">在app.wxss中引入mc-ui样式文件即可 </view>
   <view class="text-xs text-indent">/** app.wxss **/</view>
   <view class="text-xs text-indent">@import 'mc-ui.wxss';</view>
 
-<view class="h4 bg-title pg-xs-lr mg-sm-tb">CSS使用</view>
-  <view class="items pg-md mg-xs-tb">
-   <navigator url="../basic/basic" class="">基础样式 
-   <icon class="icon-box icon-font icon-zuojiantou pull-right" ></icon>
-   </navigator>
+  <view class="h4 bg-title pg-xs-lr mg-sm-tb">CSS使用</view>
+
+  <view bindtap="navTo" data-url="../basic/basic" class="items pg-md mg-xs-tb">基础样式(base)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
   </view>
-  <view class="items pg-md mg-xs-tb">
-   <navigator url="../layout/layout" class="">布局与容器 
-   <icon class="icon-box icon-font icon-zuojiantou pull-right" ></icon>
-   </navigator>
+
+  <view bindtap="navTo" data-url="../layout/layout" class="items pg-md mg-xs-tb">布局与容器(layout)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
   </view>
-  <view class="items pg-md mg-xs-tb">
-    <navigator url="../icon/icon" class="">图标 
-    <icon class="icon-box icon-font icon-zuojiantou pull-right" ></icon>
-    </navigator>
+
+  <view bindtap="navTo" data-url="../icon/icon" class="items pg-md mg-xs-tb">字体图标(icon)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
   </view>
-  <view class="items pg-md mg-xs-tb" bindtap="">图片</view>
-  <view class="items pg-md mg-xs-tb" bindtap="">表格</view>
-  <view class="items pg-md mg-xs-tb" bindtap="">表单(单选框、复选框、开关)</view>
+  <view bindtap="navTo" data-url="../img/img" class="items pg-md mg-xs-tb">图片(img)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
+  </view>
+  <view bindtap="navTo" data-url="../table/table" class="items pg-md mg-xs-tb">表格(table)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
+  </view>
+  <view bindtap="navTo" data-url="../form/form" class="items pg-md mg-xs-tb">表单(form)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
+  </view>
+  <view bindtap="navTo" data-url="../form/form" class="items pg-md mg-xs-tb">弹框(toCast)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
+  </view>
   <view class="items pg-md mg-xs-tb" bindtap="">提示信息</view>
   <view class="items pg-md mg-xs-tb" bindtap="">按钮</view>
 </view>
