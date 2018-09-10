@@ -1,8 +1,8 @@
-<!--pages/basic.wxml-->
+<!--pages/translate/translate.wxml-->
 <view class="container">
   <!-- h1-h6  -->
   <view class="h3 text-success text-center">欢迎使用 mc-ui</view>
-  
+
 </view>
 
 

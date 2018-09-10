@@ -1,14 +1,16 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/loading/loading",
+    "pages/button/button",
     "pages/basic/basic",
     "pages/logs/logs",
     "pages/layout/layout",
     "pages/icon/icon",
     "pages/text/text",
-    "pages/table/table",
-    "pages/img/img",
-    "pages/form/form"
+    "pages/form/form",
+    "pages/list/list",
+    "pages/translate/translate"
   ],
   "window": {
     "backgroundTextStyle": "#fff",

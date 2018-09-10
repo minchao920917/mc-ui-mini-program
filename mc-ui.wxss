@@ -245,6 +245,9 @@ text-transform: capitalize;
 .mc-border{
   border:solid 1px #DDD; 
 }
+.mc-border-none{
+  border: none;
+}
 .mc-border-top{
   border-top:solid 1px #DDD; 
 }
@@ -625,23 +628,95 @@ box-shadow: 0px 0px 14px -1px rgba(61,52,61,1);
 .img-rounded {
   border-radius: 6px;
 }
-/* .img-circle {
+
+/* 按钮样式 */
+.mc-btn{
+  position:relative;
+  display:block;
+  padding-left:14px;
+  padding-right:14px;
+  box-sizing:border-box;
+  font-size:18px;
+  text-align:center;
+  text-decoration:none;
+  line-height:2.55555556;
+  border-radius:5px;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#000000;
+  background-color:#F8F8F8;
+}
+.btn-block{
+  width: 100%;
+}
+.btn-lg{
+  width: 80%;
+  font-size:16px;
+}
+.btn-md{
+  width: 60%;
+  font-size:14px;
+}
+.btn-sm{
+  width: 40%;
+  font-size:12px;
+}
+.btn-xs{
+  width: 20%;
+  font-size:10px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+.btn-success {
+  background-color: #dff0d8;
+}
+
+.btn-info {
+  background-color: #d9edf7;
+}
+
+.btn-warning {
+  background-color: #fcf8e3;
+}
+
+.btn-danger {
+  background-color: #f2dede;
+}
+
+.btn-theme{
+  background-color: #0e90d2;
+  color:#fff;
+}
+.btn-angles{
+  border-radius: 0;
+}
+.btn-angles:after {
+  border-radius: 0;
+}
+.btn-radius-xs{
+   border-radius: 4px;
+}
+.btn-radius-sm{
+  border-radius: 5px;
+}
+.btn-radius-md{
+  border-radius: 8px;
+}
+.btn-radius-lg{
+  border-radius: 10px;
+}
+.btn-radius-semi{
   border-radius: 50%;
 }
-.img-thumbnail {
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
-  padding: 4px;
-  line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: all .2s ease-in-out;
-       -o-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
-} */
-
+.mc-btn icon,.mc-btn text{
+  font-size: inherit;
+}
+.mc-btn text{
+  padding: 5px;
+}
 
 /*  表格布局  */
 .mc-grid

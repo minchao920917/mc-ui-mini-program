@@ -19,10 +19,16 @@
   <view bindtap="navTo" data-url="../icon/icon" class="items pg-md mg-xs-tb">字体图标(icon)
     <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
   </view>
-  <view bindtap="navTo" data-url="../img/img" class="items pg-md mg-xs-tb">图片(img)
+  <view bindtap="navTo" data-url="../button/button" class="items pg-md mg-xs-tb">按钮(button)
     <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
   </view>
-  <view bindtap="navTo" data-url="../table/table" class="items pg-md mg-xs-tb">表格(table)
+  <view bindtap="navTo" data-url="../translate/translate" class="items pg-md mg-xs-tb">过渡动画(translate)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
+  </view>
+  <view bindtap="navTo" data-url="../loading/loading" class="items pg-md mg-xs-tb">加载动画(loading)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
+  </view>
+  <view bindtap="navTo" data-url="../list/list" class="items pg-md mg-xs-tb">列表(list)
     <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
   </view>
   <view bindtap="navTo" data-url="../form/form" class="items pg-md mg-xs-tb">表单(form)
@@ -31,6 +37,8 @@
   <view bindtap="navTo" data-url="../form/form" class="items pg-md mg-xs-tb">弹框(toCast)
     <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
   </view>
-  <view class="items pg-md mg-xs-tb" bindtap="">提示信息</view>
-  <view class="items pg-md mg-xs-tb" bindtap="">按钮</view>
+  <view bindtap="navTo" data-url="../text/text" class="items pg-md mg-xs-tb">测试(test)
+    <icon class="icon-box icon-font icon-zuojiantou pull-right"></icon>
+  </view>
+
 </view>

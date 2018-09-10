@@ -174,6 +174,8 @@
 
     <view class="mc-border mg-lg">.mc-border</view>
 
+    <view class="mc-border-none mg-lg">.mc-border-none</view>
+
     <view class="mc-border-top mg-lg">.mc-border-top</view>
 
     <view class="mc-border-right mg-lg">.mc-border-right</view>
